@@ -12,7 +12,7 @@ yarn add -D @caiguanhao/vite-plugin-css-injected-by-js
 
 ## Usage
 ```ts
-import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
+import cssInjectedByJsPlugin from '@caiguanhao/vite-plugin-css-injected-by-js'
 
 export default {
   plugins: [
