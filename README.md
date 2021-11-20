@@ -7,7 +7,7 @@ The CSS file is therefore not generated and the declaration in the generated HTM
 
 ## Installation
 ```
-npm i vite-plugin-css-injected-by-js --save
+yarn add -D @caiguanhao/vite-plugin-css-injected-by-js
 ```
 
 ## Usage
@@ -20,17 +20,3 @@ export default {
   ]
 }
 ```
-
-## Contributing
-When you make changes to plugin locally, you may want to build the js from the typescript file of the plugin. 
-Here the guidelines:
-### Install
-```
-npm install
-```
-### Build plugin
-```
-npm run build
-```
-
-See CONTRIBUTING.md for more information.

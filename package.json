@@ -1,14 +1,11 @@
 {
-  "name": "vite-plugin-css-injected-by-js",
+  "name": "@caiguanhao/vite-plugin-css-injected-by-js",
   "version": "1.0.1",
   "description": "A Vite plugin that takes the CSS and adds it to the page through the JS. For those who want a single JS file.",
-  "main": "dist/plugin.js",
-  "scripts": {
-    "build": "tsc"
-  },
+  "main": "plugin.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Marco-Prontera/vite-plugin-css-injected-by-js.git"
+    "url": "git+https://github.com/caiguanhao/vite-plugin-css-injected-by-js.git"
   },
   "keywords": [
     "vite",
@@ -21,21 +18,16 @@
     "js"
   ],
   "files": [
-    "dist/**/*"
+    "plugin.js"
   ],
   "peerDependencies": {
     "vite": ">2.0.0-0"
   },
-  "devDependencies": {
-    "@types/node": "^16.0.0",
-    "prettier": "^2.3.2",
-    "typescript": "^4.3.5",
-    "vite": "latest"
-  },
+  "devDependencies": {},
   "author": "Marco Prontera",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Marco-Prontera/vite-plugin-css-injected-by-js/issues"
+    "url": "https://github.com/caiguanhao/vite-plugin-css-injected-by-js/issues"
   },
-  "homepage": "https://github.com/Marco-Prontera/vite-plugin-css-injected-by-js#readme"
+  "homepage": "https://github.com/caiguanhao/vite-plugin-css-injected-by-js#readme"
 }
